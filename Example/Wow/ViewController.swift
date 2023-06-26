@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Wow
 
 class ViewController: UIViewController {
 

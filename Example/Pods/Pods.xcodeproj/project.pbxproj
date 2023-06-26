@@ -17,8 +17,6 @@
 		854B88F7A7BA989738BF0CC3784101D0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4238C3CC1EF968D369C766C49DFB350 /* ReplaceMe.swift */; };
 		85A82438CCA28CDD0902491F53270012 /* Wow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F1A9C144BC4C41FBCB952DEA18F54 /* Wow-dummy.m */; };
 		98F42EDFD7E737F3D0DEF3BADB64553A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BE458D062A49850F00E66CBE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE458D042A49850F00E66CBE /* DetailsViewController.swift */; };
-		BE458D072A49850F00E66CBE /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE458D052A49850F00E66CBE /* DetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +42,7 @@
 		0F3CB37B415113F4725EC699C0FAF404 /* Pods-Wow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wow_Example-dummy.m"; sourceTree = "<group>"; };
 		117B48609A9544F389593699393C391C /* Wow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wow-umbrella.h"; sourceTree = "<group>"; };
 		15BC0B54A202745F21391C94225BE7C2 /* Wow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wow-prefix.pch"; sourceTree = "<group>"; };
-		2261A77CAA1289B3CD95AA7B15BD330A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2261A77CAA1289B3CD95AA7B15BD330A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		254F816BA99740004A7FDD92F8C721A5 /* Pods-Wow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wow_Tests.modulemap"; sourceTree = "<group>"; };
 		3AB1A217022750601DF1F9972373D4AB /* Pods-Wow_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Wow_Tests"; path = Pods_Wow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD0C9998920F319928896375A4E53F3 /* Pods-Wow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -59,16 +57,14 @@
 		953081B15DD609451D6DE9615B029F16 /* Wow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wow; path = Wow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D2510DDE13A50EFD4691DAA8E5B75D /* Pods-Wow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wow_Example.modulemap"; sourceTree = "<group>"; };
 		9AC79AB7B32B620565237C1CF99BE4F4 /* Pods-Wow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9E7AB189EE395CF3D78EB9D52C79D0 /* Wow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Wow.modulemap; sourceTree = "<group>"; };
-		A0B51CDD8DBFB0793F33A2A926D5A47F /* Wow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Wow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B51CDD8DBFB0793F33A2A926D5A47F /* Wow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Wow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B276B0FAF6AB42070C46F112B1930987 /* Pods-Wow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA1D8ACFD8DE2538D7DF99D550DF9184 /* Pods-Wow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE458D042A49850F00E66CBE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		BE458D052A49850F00E66CBE /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		C3A0D6CA37718B84A1D5B0F8A7AF0ACB /* Wow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Wow.release.xcconfig; sourceTree = "<group>"; };
 		C606EAE2430FDADC2AD93A0146529E9A /* Pods-Wow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wow_Example-umbrella.h"; sourceTree = "<group>"; };
-		D0B26FD7C23F3B56219B2ED63CF32C0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0B26FD7C23F3B56219B2ED63CF32C0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D17E745E5E6E12CB153208F38BD3B963 /* Pods-Wow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDCF74CC266B99F206D0BD3375023793 /* Pods-Wow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wow_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F4238C3CC1EF968D369C766C49DFB350 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Wow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
@@ -110,8 +106,6 @@
 				F4238C3CC1EF968D369C766C49DFB350 /* ReplaceMe.swift */,
 				6E2C13DD2EFE99305F693FADDDC5BF3B /* Pod */,
 				16F920AAA9DBBC5B8B6549B3324DE099 /* Support Files */,
-				BE458D042A49850F00E66CBE /* DetailsViewController.swift */,
-				BE458D052A49850F00E66CBE /* DetailsViewController.xib */,
 			);
 			name = Wow;
 			path = ../..;
@@ -356,7 +350,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE458D072A49850F00E66CBE /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +369,6 @@
 			files = (
 				854B88F7A7BA989738BF0CC3784101D0 /* ReplaceMe.swift in Sources */,
 				85A82438CCA28CDD0902491F53270012 /* Wow-dummy.m in Sources */,
-				BE458D062A49850F00E66CBE /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +627,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
