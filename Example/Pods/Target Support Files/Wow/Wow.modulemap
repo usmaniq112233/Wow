@@ -1,0 +1,6 @@
+framework module Wow {
+  umbrella header "Wow-umbrella.h"
+
+  export *
+  module * { export * }
+}
